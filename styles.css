@@ -1,0 +1,64 @@
+    /* Selectores */
+    /* para todo los h1 */
+    
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+    }
+    /* para todo en general, todo el documento */
+    
+    * {
+        background-color: rosybrown;
+        padding: 1em;
+    }
+    /* para los que se utilizen por id( no es recomendable esto id para js) */
+    
+    #par2 {
+        font-size: 5em;
+        text-align: justify;
+    }
+    /* clases, recomendado para el css */
+    
+    .par1 {
+        color: red;
+        font-size: 2em;
+    }
+    
+    .lorem {
+        text-decoration: rgb(red, green, blue);
+        background-color: red;
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 10em;
+    }
+    /* propiedades display */
+    /* inline
+    block
+    list-item
+    run-in
+    inline-block
+    tableinline-table
+    table-row-group
+    table-header-group
+    table-footer-group
+    table-row
+    table-column-group
+    table-column
+    table-cell
+    table-caption
+    none
+    inherit */
+    
+    .prueba1 {
+        display: inline;
+        margin-right: 10em;
+    }
+    
+    .prueba2 {
+        display: inline;
+    }
+    
+    .prueba3 {
+        display: inline;
+        margin-left: 10em;
+    }
